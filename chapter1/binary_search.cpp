@@ -6,7 +6,7 @@ using namespace std;
 *target: the number you want to find
 *length: the length of the array or the range you want to use
 
-*description: In c++, I have no ideal about count the array length simply.
+*description: In c++, I have no ideal about how to count the array length simply.
               You may want to use "sizeof(array)/sizeof(array[0])", but what if you
               use "array = new int[number]" to initialize the array? So the length
               paramet is necessary.Or you can use the std::vector<int> to replace
@@ -50,7 +50,7 @@ int main(){
         a[i] = i + 1;
     }
 
-    // some tese 
+    // some tese
     cout << binary_search(a, 1, 10) << endl;
     cout << binary_search(a, 5, 10) << endl;
     cout << binary_search(a, 3, 10) << endl;
